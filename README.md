@@ -2,7 +2,7 @@
 
 ## Overview
 
-The TXL-PBC Dataset is a comprehensive collection of re-annotated and integrated cell images from multiple cell datasets. The main objective of this study is to perform sample reduction, re-labeling, and integration from [BCCD](https://github.com/Shenggan/BCCD_Dataset) and [BCD datasets](https://www.kaggle.com/datasets/adhoppin/blood-celldetection-datatset). Then, the original dataset is integrated with two new cell datasets, PBC dataset [Peripheral Blood Cells](https://pubmed.ncbi.nlm.nih.gov/32346559/)  and Raabin-WBC dataset [Raabin White Blood Cells](https://raabindata.com/raabin-health-database/), to create a high-quality, sample balanced new dataset. We call it TXL-PBC dataset. We use the Labelimg (\cite{c6}) tool to annotate all the datasets. It is specifically designed for evaluating various object detection models, especially those that use the YOLO format.
+The TXL-PBC Dataset is a comprehensive collection of re-annotated and integrated cell images from multiple cell datasets. The main objective of this study is to perform sample reduction, re-labeling, and integration from [BCCD](https://github.com/Shenggan/BCCD_Dataset) and [BCD datasets](https://www.kaggle.com/datasets/adhoppin/blood-celldetection-datatset). Then, the original dataset is integrated with two new cell datasets, PBC dataset [Peripheral Blood Cells](https://pubmed.ncbi.nlm.nih.gov/32346559/) and Raabin-WBC dataset [Raabin White Blood Cells](https://raabindata.com/raabin-health-database/), to create a high-quality, sample balanced new dataset. We call it TXL-PBC dataset. We use the [Labelimg](https://github.com/HumanSignal/labelImg) tool Semi-automated labeling is performed using [YOLOv8n](https://github.com/ultralytics/ultralytics).to annotate all the datasets. It is specifically designed for evaluating various object detection models, especially those that use the YOLO format.
 
 
 ## Contents
@@ -52,6 +52,8 @@ TXL-PBC-Dataset/
 - `images/`: Contains train, test, and val subfolders with the respective images.
 - `labels/`: Contains train, test, val and  classes subfolders with the respective YOLO format annotation files.
 - `data.yaml`: Contains dataset configuration for YOLO.
-## Dataset Structure
+## License
 This dataset is licensed under the [MIT License](LICENSE).
+## Citing TXL-PBC Dataset
+If you're using this dataset, please cite:
 
