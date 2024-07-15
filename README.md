@@ -8,7 +8,7 @@ The TXL-PBC Dataset is a comprehensive collection of re-annotated and integrated
 ## Contents
  TXL-PBC dataset is divided into a training set (train: 1008), a validation set (val: 288), and a test set (test: 144).
 You can see a example of the labeled cell image.
-[TXL-PBC Dataset Example](images/example.jpg)
+[TXL-PBC Dataset Example](TXL-PBC Dataset Example.jpg)
 We have three kind of labels :
 
 'RBC' (Red Blood Cell)
