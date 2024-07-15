@@ -2,14 +2,18 @@
 
 ## Overview
 
-The TXL-PBC Dataset is a comprehensive collection of re-annotated and integrated cell images from multiple cell datasets. It is specifically designed for evaluating various object detection models, especially those that use the YOLO format.
- TXL-PBC dataset is divided into a training set (train: 1008), a validation set (val: 288), and a test set (test: 144).
+The TXL-PBC Dataset is a comprehensive collection of re-annotated and integrated cell images from multiple cell datasets. The main objective of this study is to perform sample reduction, re-labeling, and integration from [BCCD](https://github.com/Shenggan/BCCD_Dataset) and [BCD datasets](https://www.kaggle.com/datasets/adhoppin/blood-celldetection-datatset). Then, the original dataset is integrated with two new cell datasets, PBC dataset [Peripheral Blood Cells](https://pubmed.ncbi.nlm.nih.gov/32346559/)  and Raabin-WBC dataset [Raabin White Blood Cells](https://raabindata.com/raabin-health-database/), to create a high-quality, sample balanced new dataset. We call it TXL-PBC dataset. We use the Labelimg (\cite{c6}) tool to annotate all the datasets. It is specifically designed for evaluating various object detection models, especially those that use the YOLO format.
+
 
 ## Contents
+ TXL-PBC dataset is divided into a training set (train: 1008), a validation set (val: 288), and a test set (test: 144).
+You can see a example of the labeled cell image.
+[TXL-PBC Dataset Example](images/example.jpg)
+We have three kind of labels :
 
-- **images/**: Contains subfolders for training, testing, and validation images.
-- **labels/**: Contains subfolders for the corresponding YOLO format annotation files.
-- **data.yaml**: Configuration file for the YOLO dataset.
+'RBC' (Red Blood Cell)
+'WBC' (White Blood Cell)
+'Platelets'
 
 ## Dataset Structure
 
@@ -41,12 +45,13 @@ TXL-PBC-Dataset/
 │ ├── img1.txt
 │ ├── img2.txt
 │ └── ...
+│ ├── classes.txt
 ├── data.yaml
 └── README.md
 
 - `images/`: Contains train, test, and val subfolders with the respective images.
-- `labels/`: Contains train, test, and val subfolders with the respective YOLO format annotation files.
+- `labels/`: Contains train, test, val and  classes subfolders with the respective YOLO format annotation files.
 - `data.yaml`: Contains dataset configuration for YOLO.
 ## Dataset Structure
-This dataset is licensed under the MIT License.
+This dataset is licensed under the [MIT License](LICENSE).
 
