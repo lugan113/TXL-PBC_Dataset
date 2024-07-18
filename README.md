@@ -57,7 +57,7 @@ TXL-PBC-Dataset/
 - data.yaml: Contains dataset configuration for YOLO.
 
 ## License
-This dataset is licensed under the [MIT License].
+This dataset is licensed under the [MIT License](LICENSE).
 
 ## Citing TXL-PBC Dataset
 If you're using this dataset, please cite:
