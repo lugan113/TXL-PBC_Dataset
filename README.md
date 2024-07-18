@@ -18,6 +18,7 @@ We have three kind of labels :
 ## Dataset Structure
 
 The dataset is organized as follows:
+```
 TXL-PBC-Dataset/
 ├── images/
 │ ├── train/
@@ -48,12 +49,17 @@ TXL-PBC-Dataset/
 │ ├── classes.txt
 ├── data.yaml
 └── README.md
+```
 
-- `images/`: Contains train, test, and val subfolders with the respective images.
-- `labels/`: Contains train, test, val and  classes subfolders with the respective YOLO format annotation files.
-- `data.yaml`: Contains dataset configuration for YOLO.
+
+- images/: Contains train, test, and val subfolders with the respective images.
+- labels/: Contains train, test, val, and classes subfolders with the respective YOLO format annotation files.
+- data.yaml: Contains dataset configuration for YOLO.
+
 ## License
-This dataset is licensed under the [MIT License](LICENSE).
+This dataset is licensed under the MIT License.
+
 ## Citing TXL-PBC Dataset
 If you're using this dataset, please cite:
+
 
