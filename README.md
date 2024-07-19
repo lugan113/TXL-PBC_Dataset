@@ -60,6 +60,6 @@ TXL-PBC-Dataset/
 This dataset is licensed under the [MIT License](LICENSE).
 
 ## Citing TXL-PBC Dataset
-If you're using this dataset, please cite:
+If you're using this dataset, please cite: Lu Gan, Xi Li [TXL-PBC: a freely accessible labeled peripheral blood cell dataset](https://arxiv.org/abs/2407.13214) 	arXiv:2407.13214.
 
 
