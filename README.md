@@ -1,3 +1,6 @@
+
+### Dataset Overview
+The new dataset is divided into a training set (train: 882), a validation set (val: 252), and a test set (test: 126). This work has been formally published in **Scientific Data**.
 # TXL-PBC: A Curated and Re-annotated Peripheral Blood Cell Dataset
 
 ## Overview
